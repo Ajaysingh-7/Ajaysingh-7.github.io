@@ -803,8 +803,22 @@
     </footer>
 
     <!-- Elfsight WhatsApp Chat -->
-    <script src="https://elfsightcdn.com/platform.js" async></script>
-    <div class="elfsight-app-627a06f4-29f5-480a-911b-af2279449199" data-elfsight-app-lazy></div>
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/+9779815788941?text=Hello%20Ajay%2C%20I%20saw%20your%20portfolio"
+   class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+</a>
+
+<style>
+.whatsapp-float{
+    position:fixed; left:20px; bottom:20px; z-index:999;
+    width:56px; height:56px; border-radius:50%;
+    background:#25D366; color:#fff; font-size:30px;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.3); text-decoration:none;
+}
+.whatsapp-float:hover{ color:#fff; transform:scale(1.08); }
+</style>
     
     <!-- Back to Top Button -->
     <button id="backToTop" class="back-to-top" aria-label="Back to Top">
